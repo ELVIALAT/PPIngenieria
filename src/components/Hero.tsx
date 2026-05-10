@@ -32,10 +32,6 @@ export const Navbar = ({ t, toggleLang }: { t: any, toggleLang: () => void }) =>
             {t.profile}
             <span className="absolute -bottom-1 left-0 w-0 h-px bg-brand group-hover:w-full transition-all" />
           </a>
-          <a href="#contact" className="hover:text-brand transition-all duration-300 relative group">
-            {t.contact}
-            <span className="absolute -bottom-1 left-0 w-0 h-px bg-brand group-hover:w-full transition-all" />
-          </a>
         </div>
         <div className="flex items-center gap-4">
           <button 
@@ -44,9 +40,12 @@ export const Navbar = ({ t, toggleLang }: { t: any, toggleLang: () => void }) =>
           >
             {t.lang}
           </button>
-          <button className="bg-brand text-white px-6 py-2.5 text-[10px] font-black tracking-widest hover:bg-accent duration-300 transition-colors uppercase font-heading cursor-pointer">
+          <a 
+            href="#contact"
+            className="bg-brand text-white px-6 py-2.5 text-[10px] font-black tracking-widest hover:bg-accent duration-300 transition-colors uppercase font-heading cursor-pointer block"
+          >
             {t.contact}
-          </button>
+          </a>
         </div>
       </div>
     </nav>
