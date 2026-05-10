@@ -13,7 +13,7 @@ export const Navbar = ({ t, toggleLang }: { t: any, toggleLang: () => void }) =>
     <nav className="fixed top-0 left-0 right-0 z-50 glass-card border-b border-slate-200 px-6 py-4 transition-all duration-300">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <div className="flex items-center">
-          <img src="/assets/Logo.png" alt="PP Ingeniería Logo" className="h-24 w-auto" />
+          <img src="/assets/Logo.png" alt="PP Ingeniería Logo" className="h-36 w-auto" />
         </div>
         <div className="hidden lg:flex gap-12 text-[12px] font-black uppercase tracking-[0.2em] text-zinc-500">
           <a href="#expertise" className="hover:text-brand transition-all duration-300 relative group">

@@ -6,7 +6,7 @@ export const Footer = ({ t }: { t: any }) => {
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 mb-20">
         <div>
           <div className="flex items-center mb-8">
-             <img src="/assets/Logo.png" alt="PP Ingeniería Logo" className="h-16 w-auto" />
+             <img src="/assets/Logo.png" alt="PP Ingeniería Logo" className="h-36 w-auto" />
           </div>
           <p className="text-zinc-500 max-w-sm font-light mb-10 leading-relaxed text-sm">
             {t.desc}
